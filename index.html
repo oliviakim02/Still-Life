@@ -1,7 +1,8 @@
 <style>
-  
-  * { box-sizing: border-box; }
-  
+  * {
+    box-sizing: border-box;
+  }
+
   body {
     display: flex;
     justify-content: center;
@@ -9,14 +10,14 @@
     height: 100vh;
     margin: 0;
   }
-	
+
   .frame {
     position: relative;
     width: 500px;
     height: 500px;
     border: 3px solid;
   }
-  
+
   .background {
     width: 400px;
     height: 400px;
@@ -28,17 +29,18 @@
     background-image: linear-gradient(to right, #cdbece, #d6c9d7, #dfd5e0, #e9e0ea, #f2ecf3, #f2ecf3, #f2ecf3, #f2ecf3, #e9e0ea, #dfd5e0, #d6c9d7, #cdbece);
     z-index: -2
   }
-  
+
   .coffee {
     width: 150px;
     height: 185px;
-    background-image: linear-gradient(to right, #f1db00, #f3e249, #f5e870, #f8ee92, #faf4b2, #faf4b2, #faf4b2, #faf4b2, #f8ee92, #f5e870, #f3e249, #f1db00);;
+    background-image: linear-gradient(to right, #f1db00, #f3e249, #f5e870, #f8ee92, #faf4b2, #faf4b2, #faf4b2, #faf4b2, #f8ee92, #f5e870, #f3e249, #f1db00);
+    ;
     position: absolute;
     right: 80px;
     top: 180px;
     border: 1px solid
   }
-  
+
   .bottom-strip {
     width: 150px;
     height: 8px;
@@ -49,7 +51,7 @@
     background-image: linear-gradient(to right, #85878c, #999a9e, #acadb0, #c1c1c3, #d5d5d6, #d5d5d6, #d5d5d6, #d5d5d6, #c1c1c3, #acadb0, #999a9e, #85878c);
     border-radius: 0% 0% 50% 50%;
   }
-  
+
   .lid {
     width: 150px;
     height: 20px;
@@ -60,7 +62,7 @@
     right: -1px;
     top: -11px;
   }
-  
+
   .brand {
     padding: 10% 10%;
     font-family: serif;
@@ -70,7 +72,7 @@
     position: relative;
     top: 11px;
   }
-  
+
   .brand-sub {
     padding: 5%;
     font-family: sans-serif verdana;
@@ -82,15 +84,16 @@
     right: -11px;
     top: -5px
   }
-  
+
   .red {
-    background-image: linear-gradient(to right, #ce2c2c, #de5650, #eb7974, #f59b98, #fbbcbb, #fbbcbb, #fbbcbb, #fbbcbb, #f59b98, #eb7974, #de5650, #ce2c2c);;
+    background-image: linear-gradient(to right, #ce2c2c, #de5650, #eb7974, #f59b98, #fbbcbb, #fbbcbb, #fbbcbb, #fbbcbb, #f59b98, #eb7974, #de5650, #ce2c2c);
+    ;
     height: 33%;
     width: 100%;
     position: absolute;
     bottom: 0px;
   }
-  
+
   .red-brand {
     padding: 5%;
     font-family: sans-serif verdana;
@@ -101,9 +104,9 @@
     top: 5px;
     text-align: center;
   }
-  
+
   .cup {
-    background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(34,36,195,1) 50%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 50%, rgba(34, 36, 195, 1) 50%);
     background-size: 100% 40%;
     border: 1px solid;
     width: 50px;
@@ -113,9 +116,9 @@
     top: 311px;
     z-index: 1;
   }
-  
+
   .cup2 {
-    background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(34,36,195,1) 50%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 50%, rgba(34, 36, 195, 1) 50%);
     background-size: 100% 40%;
     border: 1px solid;
     width: 50px;
@@ -125,7 +128,7 @@
     top: 257px;
     z-index: 1;
   }
-  
+
   .cup2-top {
     background-color: white;
     border: 1px solid;
@@ -136,9 +139,9 @@
     top: -58px;
     border-radius: 90%;
   }
-  
+
   .cup3 {
-    background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(34,36,195,1) 50%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 50%, rgba(34, 36, 195, 1) 50%);
     background-size: 100% 40%;
     border: 1px solid;
     width: 50px;
@@ -147,7 +150,7 @@
     right: 120px;
     top: 126px;
   }
-  
+
   .cup3-top {
     background-color: white;
     border: 1px solid;
@@ -158,14 +161,14 @@
     top: -5px;
     border-radius: 90%
   }
-  
+
   .triangle {
     background: red;
     width: 90%;
     height: 100%;
     clip-path: polygon(0 0, 0% 100%, 100% 49%);
   }
-  
+
   .triangle::after {
     content: "★";
     color: white;
@@ -186,7 +189,7 @@
     border-radius: 150px 50px 50px 150px;
     z-index: 1
   }
-  
+
   .handle-inside {
     background: #cacaca;
     background-size: 100% 40%;
@@ -199,7 +202,7 @@
     border-radius: 500px 300px 300px 500px;
     z-index: 1;
   }
-  
+
   .handle2 {
     background: white;
     background-size: 100% 40%;
@@ -212,7 +215,7 @@
     border-radius: 150px 50px 50px 150px;
     z-index: 1;
   }
-  
+
   .handle2-inside {
     background: #cacaca;
     background-size: 100% 40%;
@@ -225,7 +228,7 @@
     border-radius: 500px 300px 300px 500px;
     z-index: 1
   }
-  
+
   .handle3 {
     background: white;
     background-size: 100% 40%;
@@ -238,7 +241,7 @@
     border-radius: 50px 150px 150px 50px;
     z-index: 1;
   }
-  
+
   .handle3-inside {
     background: #c0becf;
     background-size: 100% 40%;
@@ -251,7 +254,7 @@
     border-radius: 300px 500px 500px 300px;
     z-index: 1
   }
-  
+
   .kettle {
     height: 140px;
     width: 150px;
@@ -264,7 +267,7 @@
     background-image: linear-gradient(to right, #f77b11, #f9882e, #fb9544, #fca159, #fdad6d, #fdad6d, #fdad6d, #fdad6d, #fca159, #fb9544, #f9882e, #f77b11);
     z-index: -1
   }
-  
+
   .kettle-lid {
     width: 150px;
     height: 30px;
@@ -275,7 +278,7 @@
     border-radius: 5000px 5000px 900% 900%;
     background-color: rgb(242, 121, 45);
   }
-  
+
   .kettle-lid-top {
     width: 25px;
     height: 20px;
@@ -286,7 +289,7 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 82% 100%, 20% 100%);
     clip-path: polygon(0 0, 100% 0, 82% 100%, 20% 100%);
   }
-  
+
   .kettle-bottom {
     width: 150px;
     height: 100px;
@@ -299,12 +302,11 @@
     background-image: linear-gradient(to right, #9c9c9c, #ababab, #bbbbbb, #cacaca, #dadada, #dadada, #dadada, #dadada, #cacaca, #bbbbbb, #ababab, #9c9c9c);
     z-index: -1;
   }
-  
 </style>
 
 
 <div class="frame">
-	<div class="coffee">
+  <div class="coffee">
     <div class="brand">CAFÉ BUSTELO</div>
     <div class="brand-sub">Espresso Ground Coffee</div>
     <div class="red"></div>
@@ -312,40 +314,39 @@
     <div class="lid"></div>
     <div class="bottom-strip"></div>
   </div>
-  
+
   <div class="cup">
-		<div class="triangle"></div>
+    <div class="triangle"></div>
   </div>
-  
+
   <div class="cup2">
-								<div class="triangle"></div>
+    <div class="triangle"></div>
     <div class="cup2-top"></div>
   </div>
-  
+
   <div class="cup3">
     <div class="cup3-top"></div>
   </div>
-  
+
   <div class="handle"></div>
-  
+
   <div class="handle-inside"></div>
-  
+
   <div class="handle2"></div>
-  
+
   <div class="handle2-inside"></div>
-  
+
   <div class="handle3"></div>
-  
+
   <div class="handle3-inside"></div>
-  
+
   <div class="kettle"></div>
-  
+
   <div class="kettle-bottom"></div>
-  
+
   <div class="kettle-lid"></div>
-  
+
   <div class="kettle-lid-top"></div>
-  
+
   <div class="background"></div>
-  </div>
-    
+</div>
